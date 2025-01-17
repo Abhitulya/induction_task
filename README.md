@@ -8,7 +8,7 @@ This repository contains the following four sub-tasks:
 
 ## AI vs Real Classification:
 
-I tried several pre-trained models like VGG16, EfficientNetB2, MobileNetV2, ResNet50, etc. but none of them gave good test data accuracy in the competition. All of them fall in the category of 45% to 70% score in the competition. Then I tried basic and smaller CNNs and they gave an accuracy of 80 - 85. The best score was surprisingly given by a basic 3-dense layer model (falling from 92 to 98.135 in 1st competition and to 59% in 2nd competition)  
+I tried several pre-trained models like VGG16, EfficientNetB2, MobileNetV2, ResNet50, etc. but none of them gave good test data accuracy in the competition. All of them fall in the category of 45% to 70% score in the competition. Then I tried basic and smaller CNNs and they gave an accuracy of 80 - 85. The best score was surprisingly given by a basic 3-dense layer model (falling from 92 to 98.135 in 1st competition and to 59% in 2nd competition). One of the explanations for its good accuracy against larger pre-trained models could be that dataset is not sufficient enough for transfer learning to happen. 
 
 
 ## Simple GAN implementation:
@@ -22,4 +22,4 @@ I implemented this using a similar technique like Conditional GAN training in wh
 
 ## Conversational Persona Bot:
 
-I implemented this using a model dialogGPT and fine-tuned it to respond according to the persona of a person. I choosed this model because it is the best suited for casual conversations.
+I implemented this using a model dialogGPT and fine-tuned it to respond according to the persona of a person. I chosed this model because it is the best suited for casual conversations.
